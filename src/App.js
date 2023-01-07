@@ -1,15 +1,20 @@
-import './App.css';
-import Header from './components/Header';
+//import './App.css';
+import Hero from './components/Hero';
 import Nav from './components/Nav';
-import Main from './components/Main';
+import Specials from './components/Specials';
 import Footer from './components/Footer';
+import'./styles.scss';
+import CustomerSay from './components/CustomersSay';
+import Chicago from './components/Chicago';
 
 function App() {
   return (
     <>
       <Nav/>
-      <Header/>
-      <Main/>
+      <Hero/>
+      <Specials/>
+      <CustomerSay/>
+      <Chicago/>
       <Footer/>
     </>
   );

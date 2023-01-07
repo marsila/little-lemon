@@ -1,9 +1,9 @@
-import logo from '../imgs/logo.jpg'
+import logo from '../imgs/logo-footer-dark.png'
 function Footer() {
   return(
     <footer>
-      <section>
-        <img src={logo} alt="resturant logo" width="250px" height="80px"/>
+      <section className="footer-nav">
+        <img src={logo} alt="resturant logo" width="90px" height="150px"/>
         <ul>
           <li><a href="/home" role="button">Home</a></li>
           <li><a href="/about-menu" role="button">About Menu</a></li>
@@ -23,9 +23,9 @@ function Footer() {
       <section>
         <h2>Social Media Links</h2>
         <ul>
-          <li>Facebook</li>
-          <li>Twitter</li>
-          <li>Instagram</li>          
+          <li><a href="https://www.facebook.com">Facebook</a></li>
+          <li><a href="https://twitter.com">Twitter</a></li>
+          <li><a href="https://www.instagram.com">Instagram</a></li>          
         </ul>
       </section>
     </footer>
