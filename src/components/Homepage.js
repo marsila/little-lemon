@@ -4,7 +4,7 @@ import Chicago from "./Chicago";
 import CutomersSay from "./CustomersSay";
 
 
-function HomePage() {
+function Homepage() {
   return(
     <>
       <Hero/>
@@ -14,3 +14,4 @@ function HomePage() {
     </>
   )  
 }
+export default Homepage;

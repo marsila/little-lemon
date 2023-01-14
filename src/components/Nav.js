@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import logo from '../imgs/logo1.png';
 import'../styles.scss';
 function Nav() {
@@ -5,11 +6,11 @@ function Nav() {
     <nav>
       <img src={logo}  alt="resturant logo" width="300px" height="100px"/>
       <ul>
-        <li><a href="/home" role="button">Home</a></li>
-        <li><a href="/about-menu" role="button">About Menu</a></li>
-        <li><a href="/reservation" role="button">Reservation</a></li>
-        <li><a href="/order-online" role="button">Order online</a></li>
-        <li><a href="/login" role="button">Login</a></li>
+        <li><Link to="/" role="button">Home</Link></li>
+        <li><Link to="/about-menu" role="button">About Menu</Link></li>
+        <li><Link to="/booking-table" role="button">Reservation</Link></li>
+        <li><Link to="/order-online" role="button">Order online</Link></li>
+        <li><Link to="/login" role="button">Login</Link></li>
       </ul>
     </nav>
   );
